@@ -1,0 +1,27 @@
+<label for="num-period">Number of Periods (N)</label>
+<input type="text" id="num-period">
+<br>
+
+<label for="starting-amount">Starting Amount (PV)</label>
+<input type="text" id="starting-amount">
+<br>
+
+<label for="interest-rate">Interest Rate (I/Y)	</label>
+<input type="text" id="interest-rate">
+<br>
+
+<label for="periodic-deposit">Periodic Deposit (PMT)	</label>
+<input type="text" id="periodic-deposit">
+<br>
+
+PMT Made at
+<label for="pmt-made-begining">begining</label>
+<input type="radio" name="period-deposit" id="pmt-made-begining">
+
+<label for="pmt-made-end">end</label>
+<input type="radio" name="period-deposit" id="pmt-made-end">
+<br>
+
+<button type="submit" {{on "click" this.calculate}}>
+  Submit
+</button>

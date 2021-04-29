@@ -45,7 +45,9 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 ### Deploying
 
-Specify what it takes to deploy your app.
+Deployed on Netlify. 
+
+Preview: https://stoic-ritchie-643e19.netlify.app/
 
 ## Further Reading / Useful Links
 
@@ -54,3 +56,48 @@ Specify what it takes to deploy your app.
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+
+
+---
+Inpired from https://cleartax.in/s/future-value-calculator
+
+Primary Calculators to build
+- Future Value Calculator
+- EMI Calculator	
+- Income tax calculator	
+- SIP Calculator
+- FD Calculator
+- RD Calculator
+- PPF calculator
+- Home Loan EMI Calculator	
+- Interest Calculator ( simple and compound included )	
+- NPS Calculator
+- Gratuity Calculator	
+- Personal Loan EMI Calculator	
+- Car loan emi calculator
+- Mutual fund calculator	
+- PF Calculator	
+- Salary Calculator
+- HRA Calculator	
+- CAGR Calculator	
+- Discount Calculator
+- Retirement Calculator	
+- Future Value Calculator	
+- SWP Calculator
+- Lumpsum Calculator	
+- education loan emi calculator	
+- SSY Calculator
+- Mortgage Calculator	
+- Marriage Calculator	
+- ROI Calculator
+- Present Value Calculator	
+- NPV Calculator	
+- LTCG Calculator
+- Savings Calculator	
+- Child Education Planning Calculator	
+- Tax Saving Calculator
+- Goal Planner	
+- Down Payment Calculator	
+- Lease Calculator
+- Bitcoin tax calculator	
+- Payback Period Calculator
