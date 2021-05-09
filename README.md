@@ -101,3 +101,13 @@ Primary Calculators to build
 - Lease Calculator
 - Bitcoin tax calculator	
 - Payback Period Calculator
+
+## Tailwind Integration
+- Tried [Setting up TailwindCSS with ember with in-build purgeCSS](https://www.mylittletechlife.com/setting-up-tailwindcss-with-ember-in-2020)
+- Trying [Ember.Js: Installing Tailwind CSS](https://gist.github.com/Robert-96/4d85dcafe05d9e5e72d813ae7107cc47)
+- 
+
+Commands
+- `npm install ember-cli-postcss tailwindcss postcss-import --save-dev`
+- `npx tailwindcss init app/styles/tailwind.config.js` [Issue fix](https://github.com/tailwindlabs/discuss/issues/304#issuecomment-513642156)
+- 

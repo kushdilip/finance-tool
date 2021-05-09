@@ -1,27 +1,65 @@
-<label for="num-period">Number of Periods (N)</label>
-<input type="text" id="num-period">
-<br>
+<div
+  class="w-full max-w-2xl"
+ ...attributes>
+  <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+    <label for="num-period">Number of Periods (N)</label>
+    <input
+      class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"      type="text"
+      id="num-period"
+      value={{this.numPeriod}}
+    >
+    <br>
 
-<label for="starting-amount">Starting Amount (PV)</label>
-<input type="text" id="starting-amount">
-<br>
+    <label for="starting-amount">Starting Amount (PV)</label>
+    <input
+      class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"      type="text"
+      id="starting-amount"
+      value={{this.startingAmount}}
+      {{on "input" (pick "target.value" (set this "startingAmount"))}}
+    >
+    Starting Amount: {{this.startingAmount}}
+    <br>
 
-<label for="interest-rate">Interest Rate (I/Y)	</label>
-<input type="text" id="interest-rate">
-<br>
+    <label for="interest-rate">Interest Rate (I/Y)	</label>
+    <input
+      class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"      type="text"
+      id="interest-rate"
+      value={{this.interestRate}}
+    >
+    <br>
 
-<label for="periodic-deposit">Periodic Deposit (PMT)	</label>
-<input type="text" id="periodic-deposit">
-<br>
+    <label for="periodic-deposit">Periodic Deposit (PMT)	</label>
+    <input
+      class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"      type="text"
+      id="periodic-deposit"
+      value={{this.periodicDeposit}}
+    >
+    <br>
 
-PMT Made at
-<label for="pmt-made-begining">begining</label>
-<input type="radio" name="period-deposit" id="pmt-made-begining">
+    <div class="flex my-1">
+      <span class="">PMT Made at&nbsp; &nbsp;</span>
+      <div>
+        <label for="pmt-made-begining">begining</label>
+        <Input
+          @type="radio"
+          name="period-deposit"
+          id="pmt-made-begining"
+        />
 
-<label for="pmt-made-end">end</label>
-<input type="radio" name="period-deposit" id="pmt-made-end">
-<br>
+        <label for="pmt-made-end">end</label>
+        <Input
+          @type="radio"
+          name="period-deposit"
+          id="pmt-made-end"
+        />
+      </div>
+    </div>
+    <br>
 
-<button type="submit" {{on "click" this.calculate}}>
-  Submit
-</button>
+    <button
+      class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+      type="submit" {{on "click" this.calculate}}>
+        Submit
+    </button>
+  </form>
+</div>
