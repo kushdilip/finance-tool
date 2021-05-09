@@ -15,7 +15,11 @@ module.exports = {
     extend: {},
   },
   variants: {
-    extend: {},
+    extend: {
+      opacity: ['disabled'],
+      padding: ['hover'],
+      maxHeight: ['focus'],
+    }
   },
   plugins: [],
 }

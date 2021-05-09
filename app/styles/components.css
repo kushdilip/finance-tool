@@ -1,0 +1,7 @@
+button:disabled {
+  opacity: .5;
+}
+
+button:disabled:hover {
+  opacity: .5 !important;
+}
