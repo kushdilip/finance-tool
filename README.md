@@ -1,7 +1,60 @@
-# finance-tool
+# Financial Calculator
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Live at https://finance-cal.netlify.app/
+
+---
+Inpired from https://cleartax.in/s/future-value-calculator
+
+Primary Calculators to build
+- [X] Future Value Calculator
+- EMI Calculator	
+- Income tax calculator	
+- SIP Calculator
+- FD Calculator
+- RD Calculator
+- PPF calculator
+- Home Loan EMI Calculator	
+- Interest Calculator ( simple and compound included )	
+- NPS Calculator
+- Gratuity Calculator	
+- Personal Loan EMI Calculator	
+- Car loan emi calculator
+- Mutual fund calculator	
+- PF Calculator	
+- Salary Calculator
+- HRA Calculator	
+- CAGR Calculator	
+- Discount Calculator
+- Retirement Calculator	
+- Future Value Calculator	
+- SWP Calculator
+- Lumpsum Calculator	
+- education loan emi calculator	
+- SSY Calculator
+- Mortgage Calculator	
+- Marriage Calculator	
+- ROI Calculator
+- Present Value Calculator	
+- NPV Calculator	
+- LTCG Calculator
+- Savings Calculator	
+- Child Education Planning Calculator	
+- Tax Saving Calculator
+- Goal Planner	
+- Down Payment Calculator	
+- Lease Calculator
+- Bitcoin tax calculator	
+- Payback Period Calculator
+
+## Tailwind Integration
+- Tried [Setting up TailwindCSS with ember with in-build purgeCSS](https://www.mylittletechlife.com/setting-up-tailwindcss-with-ember-in-2020)
+- Trying [Ember.Js: Installing Tailwind CSS](https://gist.github.com/Robert-96/4d85dcafe05d9e5e72d813ae7107cc47)
+- 
+
+Commands
+- `npm install ember-cli-postcss tailwindcss postcss-import --save-dev`
+- `npx tailwindcss init app/styles/tailwind.config.js` [Issue fix](https://github.com/tailwindlabs/discuss/issues/304#issuecomment-513642156)
+- 
 
 ## Prerequisites
 
@@ -56,58 +109,3 @@ Preview: https://stoic-ritchie-643e19.netlify.app/
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-
-
----
-Inpired from https://cleartax.in/s/future-value-calculator
-
-Primary Calculators to build
-- Future Value Calculator
-- EMI Calculator	
-- Income tax calculator	
-- SIP Calculator
-- FD Calculator
-- RD Calculator
-- PPF calculator
-- Home Loan EMI Calculator	
-- Interest Calculator ( simple and compound included )	
-- NPS Calculator
-- Gratuity Calculator	
-- Personal Loan EMI Calculator	
-- Car loan emi calculator
-- Mutual fund calculator	
-- PF Calculator	
-- Salary Calculator
-- HRA Calculator	
-- CAGR Calculator	
-- Discount Calculator
-- Retirement Calculator	
-- Future Value Calculator	
-- SWP Calculator
-- Lumpsum Calculator	
-- education loan emi calculator	
-- SSY Calculator
-- Mortgage Calculator	
-- Marriage Calculator	
-- ROI Calculator
-- Present Value Calculator	
-- NPV Calculator	
-- LTCG Calculator
-- Savings Calculator	
-- Child Education Planning Calculator	
-- Tax Saving Calculator
-- Goal Planner	
-- Down Payment Calculator	
-- Lease Calculator
-- Bitcoin tax calculator	
-- Payback Period Calculator
-
-## Tailwind Integration
-- Tried [Setting up TailwindCSS with ember with in-build purgeCSS](https://www.mylittletechlife.com/setting-up-tailwindcss-with-ember-in-2020)
-- Trying [Ember.Js: Installing Tailwind CSS](https://gist.github.com/Robert-96/4d85dcafe05d9e5e72d813ae7107cc47)
-- 
-
-Commands
-- `npm install ember-cli-postcss tailwindcss postcss-import --save-dev`
-- `npx tailwindcss init app/styles/tailwind.config.js` [Issue fix](https://github.com/tailwindlabs/discuss/issues/304#issuecomment-513642156)
-- 
